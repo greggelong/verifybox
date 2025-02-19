@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .checkbox {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  
