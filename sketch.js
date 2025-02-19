@@ -37,10 +37,10 @@ function draw() {
 
   // If mouse is over the checkbox, move it
   if (
-    mouseX > checkboxX &&
-    mouseX < checkboxX + 30 &&
-    mouseY > checkboxY &&
-    mouseY < checkboxY + 30
+    mouseX > checkboxX - 50 &&
+    mouseX < checkboxX + 120 &&
+    mouseY > checkboxY - 50 &&
+    mouseY < checkboxY + 80
   ) {
     moveCheckbox();
     fill(100, 100, 255);
