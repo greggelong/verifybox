@@ -3,6 +3,7 @@ let boxX, boxY, boxWidth, boxHeight;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  pixelDensity(1);
   textSize(16);
   textAlign(LEFT, CENTER);
   noFill();
@@ -22,7 +23,7 @@ function draw() {
 
   // Draw the box around the checkbox and text
   stroke(0);
-  strokeWeight(2);
+  strokeWeight(4);
   noFill();
   rect(boxX, boxY, boxWidth, boxHeight, 5); // Box with rounded corners
 
